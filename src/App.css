@@ -55,10 +55,18 @@ body {
 
 nav {
     z-index: 2;
+    opacity: 0.8;
 }
 
 .logo {
-    width: 16.25rem;
+    margin-top: 1.4rem;
+    width: 10.25rem;
+}
+
+@media(max-width:768px) {
+    .logo {
+        width: 8rem;
+    }
 }
 
 
@@ -110,10 +118,21 @@ nav ul li {
 
 .header-wraper {
     position: relative;
-    background: url(header.jpeg) no-repeat;
+    /*    background: url(header.mp4) no-repeat;*/
     background-size: cover;
     background-position: center;
     height: 90vh;
+}
+
+.header-wraper video {
+    height: 90vh;
+}
+
+video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 .main-info {
