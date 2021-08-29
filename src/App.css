@@ -123,11 +123,22 @@ nav ul li {
     /*    background: url(header.mp4) no-repeat;*/
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 98vh;
 }
 
 .header-wraper video {
-    height: 100vh;
+    height: 98vh;
+}
+
+@media(max-width:768px) {
+    .header-wraper {
+        background: url(header.jpeg);
+        width: auto;
+        height: 50vh;
+    }
+    .video {
+        visibility: hidden;
+    }
 }
 
 video {
@@ -223,4 +234,14 @@ video {
 
 .timeline {
     background-color: rgba(133, 141, 153, 0.301);
+}
+
+
+/*------------------------- About ------------------------------*/
+
+.about {
+    background-color: #474747;
+    color: #fff;
+    padding: 2rem;
+    font-family: "Roboto Condesed", sans-serif;
 }
