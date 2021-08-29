@@ -5,6 +5,8 @@ body {
 
 :root {
     --primary-white: #fff;
+    --primary-orange-lite: rgb(243, 197, 154);
+    --primary-black: rgb(0, 0, 0);
     --primary-orange: #f9ab00;
     --primary-dark: rgba(255, 255, 255, 0);
     --primary-red: #ef4035;
@@ -121,11 +123,11 @@ nav ul li {
     /*    background: url(header.mp4) no-repeat;*/
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 100vh;
 }
 
 .header-wraper video {
-    height: 90vh;
+    height: 100vh;
 }
 
 video {
@@ -209,4 +211,16 @@ video {
     .particles-canvas {
         display: none;
     }
+}
+
+
+/*------------------------ TimeLine ------------------------------*/
+
+.experience-heading {
+    height: 15vh;
+    padding: 3rem;
+}
+
+.timeline {
+    background-color: rgba(133, 141, 153, 0.301);
 }
