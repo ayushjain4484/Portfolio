@@ -1,8 +1,10 @@
 import React from "react";
-import logo from "../logo.png";
+import logo from "../images/logo.png";
 //React FontAwesome Imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import {Link} from 'react-scroll'
+
 
 const Navbar = () => {
     return (
@@ -16,23 +18,20 @@ const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">Home</a>
+                <li className="nav-item">
+                    <Link className="nav-link" to="About" smooth={true} offset={20} duration={500}>About Me</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/">About Me</a>
+                    <Link className="nav-link" to="Experience" smooth={true} offset={500} duration={500}>Experience</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/">Experience</a>
+                    <Link className="nav-link" to="Experience" smooth={true} offset={50} duration={500}>Education</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/">Education</a>
+                    <Link className="nav-link" to="Skills" smooth={true} offset={20} duration={500}>Skills</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/">Projects</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="/">Contact</a>
+                    <Link className="nav-link" to="Contact" smooth={true} offset={50} duration={500}>Contact</Link>
                 </li>
             </ul>
         </div>

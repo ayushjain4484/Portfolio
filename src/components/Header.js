@@ -1,11 +1,16 @@
 import React from "react"
 import Typed from "react-typed"
-import video from "../header.mp4"
+import video from "../images/header.mp4"
+import bg_image from "../images/header.jpeg"
+import pdf from "../lebenslauf.pdf"
+
 
 const Header = () => {
     return (
-        <div>
-            <video autoPlay muted loop id="myVideo"><source src={video} type="video/mp4"/></video>
+        <div id="Header">
+            {
+                /*<video autoPlay muted loop id="myVideo"><source src={video} type="video/mp4"/></video>*/
+            }
         <div className="header-wraper">
             <div className="main-info">
                 <h1>AYUSH JAIN</h1>
@@ -16,7 +21,7 @@ const Header = () => {
                     backSpeed={60}
                     loop
                     />
-                <a href="#" className="btn-main-offer">Contact Me</a>
+                <a href={pdf} className="btn-main-offer">View  Resume</a>
             </div>
         </div>
         </div>
