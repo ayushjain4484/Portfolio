@@ -29,12 +29,12 @@ const Skills = () => {
                 <div className="row">
                     <div class="col-sm-6 terminal" style={{ backgroundImage: `url(${background})`,backgroundSize:"contain",backgroundRepeat:"no-repeat", borderRadius: 5 }} id="terminal">
                         <br/>
-                        <Typed style={{fontSize : 14, color : "black", fontFamily: "Cascadia Code,Consolas,Courier New,monospace"}}
-                            className="typed-text"
-                            strings={["Programming: <br>Python <br>R <br>Javascript <br>HTML <br>CSS",
+                        <Typed  style={{ color : "black", fontFamily: "Cascadia Code,Consolas,Courier New,monospace"}}
+                            className="terminal-typed"
+                            strings={["Programming: <br>Python <br>R <br>Javascript <br>HTML/CSS",
                             "Data Science: <br>Apache Spark <br>Python pandas",
                             "Frameworks: <br>Django <br>Flask <br> React",
-                            "Database: <br>SQL: <br>Oracle <br>Mysql <br>PostgreSQL <br>NOSQL: <br>MongoDB <br>neo4j <br>CouchDB",]}
+                            "Database: <br>SQL: <br>Oracle, Mysql, PostgreSQL <br>NOSQL: <br>MongoDB, neo4j, CouchDB",]}
                             typeSpeed={50}
                             backSpeed={60}
                             loop

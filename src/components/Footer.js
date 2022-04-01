@@ -15,14 +15,14 @@ const Footer = () => {
                     <div class="col-sm-5">
                         <ul class="footer-nav ms-auto">
                             <li className="nav-item"><FiMail/> : ayushjain@gmx.de</li>
-                            <li className="nav-item"><GoLocation/> : Koblenz, Germany.</li>
+                            <li className="nav-item"><GoLocation/> : Koblenz,Germany.</li>
                         </ul>
                     </div>
                     <div class="col-sm-5">
                         <div id="footer-nav-div">
                             <ul class="footer-nav ms-auto">
                                 <li className="nav-item">
-                                    <Link  to="About" smooth={true} offset={20} duration={500}>About Me</Link>
+                                    <Link  to="About" smooth={true} offset={20} duration={500}>About</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link  to="Experience" smooth={true} offset={500} duration={500}>Experience</Link>

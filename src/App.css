@@ -253,7 +253,14 @@ video {
 
 @media(max-width:768px) {
     .terminal {
-        visibility: hidden;
+        height: 250px;
+        font-size: 12px;
+    }
+}
+
+@media(max-width:768px) {
+    .terminal-typed {
+        font-size: 12px;
     }
 }
 
@@ -294,4 +301,16 @@ video {
 
 .social-logo>a {
     margin-left: 10px;
+}
+
+@media(max-width:768px) {
+    .social-logo {
+        text-align: center;
+    }
+    .footer-nav {
+        width: auto
+    }
+    .footer-nav>li {
+        text-align: center;
+    }
 }
