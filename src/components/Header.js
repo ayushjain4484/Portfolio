@@ -2,7 +2,7 @@ import React from "react"
 import Typed from "react-typed"
 import video from "../images/header.mp4"
 import bg_image from "../images/header.jpeg"
-import pdf from "../lebenslauf.pdf"
+import pdf from "../lebenslauf_2.pdf"
 
 
 const Header = () => {
