@@ -14,6 +14,20 @@ const Experience = () => {
 </div>
 <VerticalTimeline>
 
+<VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="Apr, 2022 - Present"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    icon={<FaBriefcase/>}>
+    <h3 className="vertical-timeline-element-title">FullStack Developer</h3>
+    <h4 className="vertical-timeline-element-subtitle"> Rethink Innovations, Germany</h4>
+    <p>Develop and maintain Web based application using AngularJS.</p>
+    <p>FullStack Development</p>
+    <p>Worked closely with the Producto owners to discuss various ideas/solutions, issues, and timelines.</p>
+    <p><strong>AngularJS, typescript, Java, AWS, IntelliJ, Git, JIRA</strong></p>
+  </VerticalTimelineElement>
+
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="Apr, 2021 - Present"
