@@ -278,6 +278,7 @@ video {
     margin-top: 5px;
     float: right;
     width: 100%;
+    height: 2.5rem;
 }
 
 
@@ -314,3 +315,83 @@ video {
         text-align: center;
     }
 }
+
+
+/*------------------------- Heights of components for desktop ------------------------------*/
+
+@media(min-width: 1000px) {
+    .about {
+        height: 35rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .skills {
+        height: 35rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .contact {
+        height: 45rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .contact-elements {
+        margin-bottom: 2rem;
+    }
+    .footer {
+        height: 4rem;
+        padding: 1rem;
+    }
+    .contact .row {
+        margin-bottom: 1rem;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-self: center;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+    .contact .submit-button {
+        width: 39rem;
+        height: 2.5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
+/*------------------------- Heights of components for Mobile ------------------------------*/
+
+@media(max-width: 880px) {
+    .contact .row {
+        margin-bottom: 1rem;
+    }
+    .contact .submit-button {
+        width: 92%;
+        height: 2.5rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+}
+
+
+/*------------------------- Hide Arrows from number input ----------------------------------*/
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+/*------------------------- Hide Arrows from number input ----------------------------------*/

@@ -19,33 +19,39 @@ const Contact = () => {
                    
                 <form action="https://formspree.io/f/mjvleapr" method="POST">
                     <div className="row">
-                        <div class="col-sm-6">
-                            <div class="form-group">
+                            <div class="form-group ">
                                 <label for="Name">Name</label >
                                 <input name="name" type="text" class="form-control" id="Name" required/>
                             </div>
-                            <div class="form-group">
+                    </div>
+                    <div className="row">
+                            <div class="form-group ">
                                 <label for="email">Email</label>
                                 <input name="email" type="email" class="form-control" id="email" required/>
                             </div>
-                            <div class="form-group">
+                    </div>
+                    <div className="row">
+                            <div class="form-group ">
                                 <label for="phone">Contact no.</label>
                                 <input name="phone" type="number" class="form-control" id="phone" />
                             </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
+                    </div>
+                    <div className="row">   
+                            <div class="form-group ">
                                 <label for="subject">Subject</label>
                                 <input name="subject" type="text" class="form-control" id="subject"/>
                             </div>
+                    </div>
+                    <div className="row">
                             <div class="form-group  text-area">
                                 <label for="message">Message</label>
                                 <textarea name="message" row="5" class="form-control" id="message"/>
                             </div>
-                            <button type="submit" class=" btn btn-dark btn-sm submit-button">Submit</button>
-                        </div>
-                        <div><br></br></div>
                     </div>
+                    <div className="row">
+                            <button type="submit" class=" btn btn-dark btn-sm submit-button">Submit</button>
+                    </div>
+                        
                 </form>
                     
 
