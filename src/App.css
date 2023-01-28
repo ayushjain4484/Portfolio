@@ -7,7 +7,7 @@ body {
     --primary-white: #fff;
     --primary-orange-lite: rgb(243, 197, 154);
     --primary-black: rgb(0, 0, 0);
-    --primary-orange: #f9ab00;
+    --primary-orange: #f98500;
     --primary-dark: rgba(255, 255, 255, 0);
     --primary-red: #ef4035;
     --primary-hover-red: #f33501;
@@ -123,6 +123,7 @@ nav ul li {
 .header-wraper {
     position: relative;
     /*    background: url(header.mp4) no-repeat;*/
+    width: 100%;
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -165,6 +166,10 @@ video {
 
 /*------------------------ TYPED TEXT -----------------------------*/
 
+.color-white {
+    color: white !important;
+}
+
 .typed-text {
     font-size: 2rem;
     color: var(--primary-black);
@@ -180,11 +185,13 @@ video {
 /*------------------------ Header Main Offer button -----------------------------*/
 
 .btn-main-offer {
-    border: 1px solid var(--primary-red);
+    border: 1px solid var(--primary-orange);
     text-transform: uppercase;
+    background-color: var(--primary-orange);
+    color: var(--primary-white);
+    font-weight: 500;
     border-radius: 0;
     padding: 0.624rem 0.75rem 0.75rem 0.75rem;
-    color: var(--primary-black);
     margin: 2rem;
     text-decoration: none;
 }

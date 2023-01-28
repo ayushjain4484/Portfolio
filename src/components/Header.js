@@ -11,7 +11,9 @@ const Header = () => {
             {
                 /*<video autoPlay muted loop id="myVideo"><source src={video} type="video/mp4"/></video>*/
             }
+            
         <div className="header-wraper">
+        <img src={bg_image} className="header-wraper"/>
             <div className="main-info">
                 <h1>AYUSH JAIN</h1>
                 <Typed

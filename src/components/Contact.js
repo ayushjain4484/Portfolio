@@ -49,7 +49,7 @@ const Contact = () => {
                             </div>
                     </div>
                     <div className="row">
-                            <button type="submit" class=" btn btn-dark btn-sm submit-button">Submit</button>
+                            <button type="submit" class="btn btn-dark btn-sm submit-button">Submit</button>
                     </div>
                         
                 </form>

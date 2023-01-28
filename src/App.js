@@ -34,7 +34,6 @@ function App() {
     }}
     />
 
-
     <Navbar/>
     <Header/>
     <About/>
