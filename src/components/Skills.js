@@ -36,9 +36,9 @@ const Skills = () => {
                         <Typed  style={{ color : "black", fontFamily: "Cascadia Code,Consolas,Courier New,monospace"}}
                             className="terminal-typed"
                             strings={["Programming: <br>Python <br>Java <br>Typescript <br>R <br>Javascript <br>HTML/CSS",
-                            "Data Science: <br>Apache Spark <br>Python pandas",
-                            "Frameworks: <br>Django <br>Flask <br> ReactJS <br> AngularJS",
-                            "Database: <br>SQL: <br>Oracle, Mysql, PostgreSQL <br>NOSQL: <br>MongoDB, neo4j, CouchDB",]}
+                            "Data Science: <br>Apache Spark <br>Python pandas <br>numpy <br>scikit-learn",
+                            "Frameworks:   <br> ReactJS <br> AngularJS <br>Django <br>Flask",
+                            "Database: <br>SQL: <br>Oracle, Mysql, PostgreSQL ....... <br>NOSQL: <br>MongoDB, neo4j, CouchDB ......",]}
                             typeSpeed={50}
                             backSpeed={60}
                             loop
@@ -47,12 +47,12 @@ const Skills = () => {
                     </div>
                     <div class="col-sm-6 skill-section">
                         <div>
+                            <FaAws className="skill-image"/>
                             <FaReact className="skill-image"/>
                             <FaAngular className="skill-image"/>
                             <FaHtml5 className="skill-image"/>
                             <FaCss3Alt className="skill-image"/>
                             <DiDjango className="skill-image"/>
-                            <FaAws className="skill-image"/>
                             <FaJs className="skill-image"/>
 
                             <FaPython className="skill-image"/>

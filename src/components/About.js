@@ -8,9 +8,10 @@ const About = () => {
                 <div className="row">
                     <div class="col-sm-9">
                         <h3>Ayush Jain,</h3>
-                        <p>Full-stack web developer and Data scientist having three years of professional experience with TCS (Tata Consultancy Services). </p>
-                        <p>I am currently studying MSc. Web and data science in Universität Koblenz · Landau. </p>
-                        <p><strong>Python, Django, React.js, Apache Spark.</strong></p>
+                        <br/>
+                        <p>Full-stack web developer with 4 years of professional experience with TCS (Tata Consultancy Services) and Rethink Innovations.</p>
+                        <p>Masters in Web and data science from Universität Koblenz, Germany</p>
+                        <p><strong>AngularJS, React.JS, Python, AWS Cloud developement.</strong></p>
                     </div>
                     <div class="col-sm-3">
                         <img className="rounded mx-auto d-block img-thumbnail" src={ProfilePicture} alt="ProfilePicture" />
