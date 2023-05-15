@@ -1,7 +1,7 @@
 import React from "react"
 import Typed from "react-typed"
 import bg_image from "../images/header.jpeg"
-import pdf from "../lebenslauf_2.pdf"
+import pdf from "../Lebenslauf.pdf"
 
 
 const Header = () => {
@@ -13,7 +13,7 @@ const Header = () => {
                     <h1>AYUSH JAIN</h1>
                     <Typed
                         className="typed-text"
-                        strings={["Web Development","Data Science","Full Stack Development"]}
+                        strings={["Full Stack Development","Cloud Development","DevOps Approach","Web Development","Data Science"]}
                         typeSpeed={40}
                         backSpeed={60}
                         loop

@@ -20,7 +20,9 @@ import { SiOracle } from 'react-icons/si'
 import { SiMongodb } from 'react-icons/si'
 import { SiPostgresql } from 'react-icons/si'
 import { SiGraphql } from 'react-icons/si'
-import { SiWindows } from 'react-icons/si' 
+import { SiWindows } from 'react-icons/si'
+import { FaDocker } from "react-icons/fa"
+
 import Typed from "react-typed"
 import background from "../images/terminal.png"
 
@@ -64,6 +66,7 @@ const Skills = () => {
                             <SiLinux className="skill-image"/>
                             <SiWindows className="skill-image"/> 
                             <SiRedhat className="skill-image"/>
+                            <FaDocker className="skill-image"/>
                             <SiRaspberrypi className="skill-image"/>
                             
                             <SiGit className="skill-image"/>
